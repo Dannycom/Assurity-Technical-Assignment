@@ -1,7 +1,7 @@
 import requests
 import json
 
-resp = requests.get("https://api.tmsandbox.co.nz/v1/Categories/6328/Details.json?catalogue=false") #getting request from API
+resp = requests.get("https://api.tmsandbox.co.nz/v1/Categories/6328/Details.json?catalogue=false") #get request from API
 json_resp = resp.json() #formatting into json format
 
 #test for Name
